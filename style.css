@@ -1,0 +1,62 @@
+.container {
+    display: grid;
+    height: 100vh;
+    grid-template-columns: repeat(10, 1fr);
+    grid-template-rows: repeat(10, 1fr);
+
+}
+
+.a {
+    grid-column: 1/11;
+    grid-row: 1/4;
+    background: pink;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.b {
+    grid-column: 1/6;
+    grid-row: 4/8;
+    background: lightgreen;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.c {
+    grid-column: 6/11;
+    grid-row: 4/8;
+    background: lightblue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.d {
+    grid-column: 1/11;
+    grid-row: 8/11;
+    background: yellow;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.f {
+    border: 5px solid red;
+}
+
+
+
+.napis1:hover {
+    color: red;
+}
+
+
+.b:hover {
+background: blue;   
+}
+
+.napis4:hover {
+    font-size: 40px;
+}
